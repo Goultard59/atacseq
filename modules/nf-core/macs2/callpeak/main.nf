@@ -42,6 +42,9 @@ process MACS2_CALLPEAK {
         --gsize $macs2_gsize \\
         --format $format \\
         --name $prefix \\
+        --nomodel \\
+        --shift -75
+        --extsize 150 \\
         --treatment $ipbam \\
         $control
 
